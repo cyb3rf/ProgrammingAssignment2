@@ -31,7 +31,3 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
-----------------------Check the program--------------------------------
-test1 <- matrix(rnorm(15, 2, 0.5), 4, 4)
-test2 <- makeCacheMatrix(test1)
-cacheSolve(test2)
